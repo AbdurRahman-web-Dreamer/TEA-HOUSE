@@ -46,22 +46,22 @@
             <div class="hero-content flex-col lg:flex-row">
             
               <div>
-                <h1 class="text-7xl font-extrabold">
+                <h1 class="text-5xl lg:text-7xl font-extrabold max-w-2xl">
                     It's good <br>
-                    tea time at The <br> 
+                    tea time at The <br>
                     Tea House</h1>
-                <p class="py-6 text-xl font-medium " >
+                <p class="py-6 text-xl font-medium max-w-lg text-stone-500" >
                     Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
                 </p>
-                <button class="btn btn-primary">Explore More</button>
+                <button class="btn bg-orange-400 text-white btn-primary border-0 px-12  text-xl font-bold">Explore More <img src="images/arrow.png" alt=""></button>
               </div>
              <div>
                 <img
                 src="images/banner.png"
-                class="max-w-sm  " />
+                class="w-full  " />
 
              <!-- ratting badge  -->
-                <div class="flex items-center gap-4 drop-shadow-lg bg-white p-5 max-w-64">
+                <div class="flex items-center gap-4 drop-shadow-lg bg-white p-5 max-w-60 -mt-16">
                   
                     <i class="fa-solid fa-star text-3xl text-amber-400"></i>
                     <div>
@@ -78,8 +78,70 @@
 
 
       <!-- main section  -->
-       <main>
+       <main class="container mx-auto">
 
+        <!-- featured section  -->
+               <section class="text-center my-24">
+                       <h2 class="text-5xl font-extrabold">Our Featured Products</h2>
+                       <p class="font-medium max-w-4xl mx-auto my-5 text-stone-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                      
+                        
+                      <!-- card container   -->
+                       <div class="grid  grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-6 p-5 mt-10"> 
+                              
+                          <!-- first card  -->
+                          <div class="card  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]   p-8 shadow-xl ">
+                            <figure>
+                              <img
+                                src="images/tea-1.png"
+                                alt="" />
+                            </figure>
+                            <div class="card-body justify-center">
+                              <h2 class="text-2xl  font-extrabold">Milk Tea</h2>
+                              <p>Creamer could be replaced by fresh milk</p>
+                            </div>
+                          </div>
+                       
+                          <!-- second card  -->
+                          <div class="card  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]  p-8 shadow-xl ">
+                            <figure>
+                              <img
+                                src="images/tea-2.png"
+                                alt="" />
+                            </figure>
+                            <div class="card-body justify-center">
+                              <h2 class="text-2xl  font-extrabold">Milk Tea</h2>
+                              <p>Creamer could be replaced by fresh milk</p>
+                            </div>
+                          </div>
+                       
+                          <!-- third card  -->
+                          <div class="card  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]   p-8 shadow-xl ">
+                            <figure>
+                              <img
+                                src="images/tea-3.png"
+                                alt="" />
+                            </figure>
+                            <div class="card-body justify-center">
+                              <h2 class="text-2xl  font-extrabold">Milk Tea</h2>
+                              <p>Creamer could be replaced by fresh milk</p>
+                            </div>
+                          </div>
+                       
+                          <!-- fourth card  -->
+                          <div class="card  bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4]   p-8 shadow-xl ">
+                            <figure>
+                              <img
+                                src="images/tea-4.png"
+                                alt="" />
+                            </figure>
+                            <div class="card-body justify-center">
+                              <h2 class="text-2xl  font-extrabold">Milk Tea</h2>
+                              <p>Creamer could be replaced by fresh milk</p>
+                            </div>
+                          </div>
+                       </div>
+               </section>
        </main>
 </body>
 </html>
